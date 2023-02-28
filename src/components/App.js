@@ -1,11 +1,12 @@
-import React from 'react'
+import React from "react";
+import List from "./List";
 
 const App = () => {
   return (
     <div id="main">
-               {/* Do not remove the main div */}
+      <List />
     </div>
-  )
-}
+  );
+};
 
-export default App
+export default App;
